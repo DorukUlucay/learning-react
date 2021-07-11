@@ -8,6 +8,7 @@ my notes and codes from learning react
 ## learning sources
 * Course: React - The Complete Guide, Maximilian Schwarzmüller, Udemy
 * Book: React Succinctly, Samer Buna
+* tutorialspoint.com
 
 ## keywords
 reactdom, 
@@ -91,6 +92,11 @@ reduce's callback func receives two arguments. acc means accumulated and curr me
 [4, 7, 2, 5, 0, 11].filter(e => e%2 === 0);
 //result: [4, 2, 0]
 ```
+
+## redux
+* redux is a state container lib for js applications.
+* solves react's state complexity by creating an object named Store.
+* Store is immutable. you mutate it through reducers. reducers mutate the state and return the new one.
 
 ## programming in general
 * be consistent with your style, whatever it is.
