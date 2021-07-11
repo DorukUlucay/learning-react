@@ -13,13 +13,14 @@ my notes and codes from learning react
 reactdom, 
 
 ## tools
+* node
 * npm or npx
 * create-react-app
 
 ## advantages
 * declarative. you describe the final state and react deals with how.
 * very performant because of virtual dom and tree concilation algorithm(more on this later)
-* created and user by facebook. thoroughly production tested.
+* created and used by facebook. thoroughly production tested.
 
 ## disadvantages
 * state is complicated.
@@ -51,7 +52,7 @@ reactdom,
 * since jsx is not a template language, neither browser nor react itself deals with jsx. only compiler.
 
 ### state
-* state is a bit complicated. it is explicitly used. it has a downward flow. to use state in lower components or trigger events in parent nodes, you need to **list state**(more on that later)
+* state is a bit complicated. it is explicitly used. it has a downward flow. to use state in lower components or trigger events in parent nodes, you need to **lift state**(more on that later)
 * this explicit approach gets react closer to functional programming since statelessness is a very important concept in fp. react components(which are functions by definitions) are mostly **pure functions**.
 
 ### hooks
